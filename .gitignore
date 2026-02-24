@@ -1,0 +1,59 @@
+# ===================================
+# alien-recon .gitignore
+# ===================================
+# The repo is our shared brain (Me + Ghost Girl).
+# Kali is the machine — its tools and artifacts stay on disk, not in git.
+
+# Wordlists (already on Kali at /usr/share/wordlists/)
+*.wordlist
+rockyou*.txt
+
+# Binaries & compiled artifacts (never belong in git)
+*.exe
+*.bin
+*.cpl
+*.dll
+*.elf
+*.msi
+*.o
+*.so
+
+# Archives & disk images
+*.iso
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.img
+
+# Malware samples & target scripts (stay on Kali for analysis)
+*.hta
+*.vbs
+*.ps1
+*.lnk
+*.eml
+
+# Target artifacts in sessions
+# (images, html, scripts, db dumps, resource files grabbed from targets)
+# Findings go in session.md — raw loot stays on disk
+sessions/**/*.jpg
+sessions/**/*.png
+sessions/**/*.gif
+sessions/**/*.html
+sessions/**/*.js
+sessions/**/*.sql
+sessions/**/*.rc
+sessions/**/*.php
+sessions/**/*.bak
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/OS artifacts
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
