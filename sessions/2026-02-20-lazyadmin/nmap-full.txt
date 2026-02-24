@@ -1,0 +1,9 @@
+# Nmap 7.98 scan initiated Fri Feb 20 22:45:14 2026 as: /usr/lib/nmap/nmap --privileged -p- -T4 -Pn -oN /home/kali/alien-recon/sessions/2026-02-20-lazyadmin/nmap-full.txt 10.67.162.142
+Nmap scan report for 10.67.162.142
+Host is up (0.070s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+# Nmap done at Fri Feb 20 22:46:42 2026 -- 1 IP address (1 host up) scanned in 88.05 seconds

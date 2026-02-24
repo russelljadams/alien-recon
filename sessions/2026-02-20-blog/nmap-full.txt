@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Fri Feb 20 21:10:14 2026 as: /usr/lib/nmap/nmap --privileged -p- -T4 -oN /home/kali/alien-recon/sessions/2026-02-20-blog/nmap-full.txt 10.67.177.160
+Nmap scan report for 10.67.177.160
+Host is up (0.071s latency).
+Not shown: 65531 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Fri Feb 20 21:12:21 2026 -- 1 IP address (1 host up) scanned in 127.08 seconds

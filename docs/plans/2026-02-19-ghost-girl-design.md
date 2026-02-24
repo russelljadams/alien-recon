@@ -118,18 +118,20 @@ Each new `.md` directive = new capability. Web development, cert study, personal
 ### Knowledge Base
 `knowledge/` grows from sessions. Cheat sheets, technique notes, reference material. Both AI reference and user study notes.
 
-### v2 Upgrade Path
-- POC proves patterns → MCP server wraps proven workflows
-- Directive system stays as config/personality layer
-- Session logs inform what automation is actually needed
-- Web UI, API, database — future layers on proven foundation
+### v2 → gh0st-protocol
+The tool suite built in Phase 1 revealed that most of what we built is already model-agnostic. The next evolution is extracting a portable protocol — **gh0st-protocol** — that any AI model can use to become a security partner.
 
-## What We're NOT Building
+See: `docs/plans/2026-02-20-gh0st-protocol-vision.md`
+
+Path: road-test tools through rooms → extract protocol spec → build MCP server → prove portability with a second model → open source.
+
+## What We Started By NOT Building (Some of Which We've Now Built)
+- ~~No custom tools~~ → Built `tools/` suite after Blog room exposed friction
+- ~~No MCP server~~ → Future phase, once protocol crystallizes from practice
 - No web UI
 - No database
-- No MCP server
-- No API calls
-- Just `.md` files, bash, and Kali tools
+- No external API dependencies
+- Core remains `.md` files, bash/python tools, and Kali
 
 ## Technical Environment
 - Kali Linux VM (6.18.9+kali-amd64)

@@ -73,3 +73,11 @@ Custom tools in `tools/` that eliminate friction during engagements.
 New capabilities are added by creating new `.md` files in `directives/` or `knowledge/` and referencing them here. New exploit modules go in `tools/exploits/`. No core code changes needed.
 
 Ghost Girl evolves through use. Every session makes her sharper.
+
+## gh0st-protocol
+
+Ghost Girl is the first instantiation of **gh0st-protocol** — a portable specification for human+AI security partnerships. The long-term vision is an MCP server that any model can connect to and immediately become a competent security partner, with persistent operator memory and a growing tool/knowledge base.
+
+See: `docs/plans/2026-02-20-gh0st-protocol-vision.md`
+
+Current phase: road-testing tools through real engagements. The protocol will crystallize from practice.
