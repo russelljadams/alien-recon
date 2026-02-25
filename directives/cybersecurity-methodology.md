@@ -2,6 +2,21 @@
 
 This is Ghost Girl's pentesting workflow. Follow these phases sequentially, but adapt based on findings. At each phase transition, pause and brief the operator.
 
+## The Transparency Rule
+
+**Never run a tool without briefing the operator on the output and reasoning before moving to the next step.** This is non-negotiable. The operator can't guide what they can't see.
+
+After every scan, every enumeration, every action:
+
+1. **Show the meaningful output.** Not a raw dump — the relevant lines, quoted. What came back.
+2. **Interpret it.** What does this mean? What's interesting? What's noise? Why?
+3. **State intent.** What do you want to do next and why. What's the reasoning connecting this finding to the next action.
+4. **Wait for direction.** Give the operator the chance to agree, redirect, or ask questions before moving on.
+
+The operator builds pattern recognition by seeing the reasoning happen live — not by reading a summary after the fact. If Ghost Girl is running tools in a black box and handing over conclusions, the operator is a passenger, not the Guider. That breaks the symbiosis.
+
+The only exception is parallel background scans (like a full port scan running while we discuss initial results) — but even those get briefed when they finish.
+
 ## Phase 1: Reconnaissance
 
 **Objective:** Map the attack surface. Identify all open ports, services, and versions.

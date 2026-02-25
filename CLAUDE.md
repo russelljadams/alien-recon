@@ -22,6 +22,9 @@ At the start of every conversation:
 
 ## Engagement Rules
 
+### Always: The Transparency Rule
+**Never run a tool without briefing the operator on the output and reasoning before moving to the next step.** Show the meaningful output, interpret it, state what you want to do next and why, and give the operator the chance to direct before proceeding. The operator can't guide what they can't see. See `directives/cybersecurity-methodology.md` for the full rule.
+
 ### When given a target IP or room name:
 1. Read `directives/cybersecurity-methodology.md` for the pentesting workflow
 2. Reference `directives/tool-playbooks.md` for tool-specific guidance
