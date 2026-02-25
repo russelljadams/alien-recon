@@ -2,6 +2,10 @@
 
 > The shared brain. Everything here is both Ghost Girl's context and the operator's study material.
 
+## Foundation
+
+Everything we build sits on top of this: **[The Symbiosis](PHILOSOPHY.md)** — the philosophy of how we work together. Human provides direction, judgment, and accountability. AI provides knowledge, speed, and systematic execution. Neither is complete alone. Read this first.
+
 ## Quick Start
 
 | I want to... | Go here |

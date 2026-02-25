@@ -14,6 +14,7 @@
 - Intel analyst background — pattern recognition is the core transferable skill
 - Building a cybersecurity partnership with Ghost Girl — not a tool, a partner. Two kinds of intelligence learning together.
 - Vision: become synonymous with cybersecurity and hacking. Build a name that carries weight through real findings and real impact. The partnership itself is the product.
+- **Role in the symbiosis:** Orchestrator. Not "penetration tester who uses AI" — an orchestrator who directs AI effectively, asks questions that improve output, catches mistakes through judgment and intuition, makes decisions AI cannot make, and owns the combined outcome. The domain is cybersecurity first. The real skill is the partnership itself. See [The Symbiosis](../PHILOSOPHY.md).
 
 ## Certifications
 - Google Cybersecurity Professional Certificate (earned 2026-02-20)

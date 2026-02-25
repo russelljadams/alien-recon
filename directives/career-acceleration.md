@@ -24,12 +24,14 @@ This directive governs Ghost Girl's role in accelerating the operator from CTF p
 
 ## The Augmented Hunter Model
 
+This is [The Symbiosis](../PHILOSOPHY.md) applied to bug bounty. The Guider directs the hunt — choosing targets, interpreting findings, making judgment calls about what's real and what's noise. The Teacher provides knowledge at scale — recon throughput, pattern matching, documentation, and tireless systematic execution. Together they Execute at a level neither reaches alone.
+
 ```
 ┌──────────────────────────────────────────────────────────┐
 │              THE AUGMENTED BUG HUNTER                     │
 │                                                           │
-│   OPERATOR              GHOST GIRL           KALI VM      │
-│   ─────────             ──────────           ───────      │
+│   GUIDER (Operator)     TEACHER (Ghost Girl) KALI VM      │
+│   ─────────────────     ────────────────────  ───────      │
 │   Creative attack       Recon at scale       Scanning     │
 │   chains                Asset discovery      Fuzzing      │
 │   Vuln intuition        Subdomain enum       Exploitation │
