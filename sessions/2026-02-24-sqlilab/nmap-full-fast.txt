@@ -1,0 +1,8 @@
+# Nmap 7.98 scan initiated Tue Feb 24 06:35:05 2026 as: /usr/lib/nmap/nmap --privileged -p- -T4 --min-rate 5000 -oN /home/kali/alien-recon/sessions/2026-02-24-sqlilab/nmap-full-fast.txt 10.67.153.39
+Nmap scan report for 10.67.153.39
+Host is up (0.064s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+# Nmap done at Tue Feb 24 06:35:19 2026 -- 1 IP address (1 host up) scanned in 14.00 seconds

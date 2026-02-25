@@ -1,0 +1,14 @@
+# Nmap 7.98 scan initiated Tue Feb 24 06:34:47 2026 as: /usr/lib/nmap/nmap --privileged -sC -sV -oN /home/kali/alien-recon/sessions/2026-02-24-sqlilab/nmap-initial.txt 10.67.153.39
+Nmap scan report for 10.67.153.39
+Host is up (0.063s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 c3:55:08:09:cc:81:a0:0e:96:ef:86:eb:30:1e:40:71 (RSA)
+|   256 3d:4d:77:04:d7:95:7e:a2:0e:dc:60:15:8f:a7:36:ee (ECDSA)
+|_  256 39:a6:ed:f9:39:2d:ca:81:ec:aa:3f:7f:fe:d3:f0:50 (ED25519)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 24 06:34:52 2026 -- 1 IP address (1 host up) scanned in 4.65 seconds

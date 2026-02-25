@@ -9,10 +9,10 @@ Progress toward bug bounty readiness. Skills are rated: **Not Started** → **Le
 | Vulnerability Class | Proficiency | Practice | Notes |
 |---|---|---|---|
 | **IDOR** | Not Started | — | Change an ID, access someone else's data. Easy to find, common, often critical. |
-| **Authentication Bypasses** | Not Started | — | Broken auth logic, password reset flaws, 2FA bypasses. |
+| **Authentication Bypasses** | Learning | SQL Injection Lab (auth bypass, credential dump, account takeover) | Bypassed login forms via SQLi, dumped credential DBs, hijacked admin via UPDATE injection. |
 | **SSRF** | Not Started | — | Access internal services from external. Cloud metadata = instant critical. |
 | **XSS** | Not Started | — | Stored XSS pays well. Reflected is lower but good for learning. |
-| **SQL Injection** | Learning | — | Classic, still everywhere. Have sqlmap experience to build on. |
+| **SQL Injection** | Comfortable | SQL Injection Lab (12/12) | In-band, UNION-based, blind boolean (binary search), second-order, UPDATE injection, chained multi-query. Manual exploitation solid — wrote custom blind extraction script. |
 | **Access Control Flaws** | Learning | LazyAdmin (sudo chain) | Horizontal/vertical privesc in web apps. Logic-based = human advantage. |
 
 ### Tier 2 — Level Up

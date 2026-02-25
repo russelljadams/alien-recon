@@ -30,6 +30,7 @@ The immediate path is bug bounty. No clients, no boss. Just skill, system, and t
 | 2026-02-20 | Ghost tool suite battle-tested | ghost-recon, ghost-listen, ghost-exploit, ghost-enum all used in live engagements |
 | 2026-02-24 | Career acceleration directive | Committed to the bug bounty path. Restructured everything around it. |
 | 2026-02-24 | Infrastructure overhaul | Built writeup system, INDEX, memory protocol, bounty tracker, skill tree tracking |
+| 2026-02-25 | SQL Injection Lab complete (12/12) | First dedicated web vuln room. Covered all major SQLi types: in-band, UNION, blind boolean, second-order, UPDATE, chained. Wrote custom binary search extraction script. SQL Injection → **Comfortable**. |
 | — | First bug bounty account created | *upcoming* |
 | — | First recon on a live target | *upcoming* |
 | — | First valid submission | *upcoming* |
@@ -39,19 +40,20 @@ The immediate path is bug bounty. No clients, no boss. Just skill, system, and t
 
 ## Where We Are Right Now
 
-**Last session (2026-02-24):**
-- Built out the entire infrastructure to support the bug bounty career path
-- Created educational writeups for Blog and LazyAdmin rooms
-- Restructured skills tracking around the bug bounty skill tree
-- Set up bounties/ directory, memory protocol, navigation system
+**Last session (2026-02-25):**
+- Completed SQL Injection Lab (12/12 challenges) — all manual, no sqlmap
+- Covered: in-band, UNION-based, blind boolean (with custom binary search script), second-order/stored, UPDATE injection, chained two-stage injection
+- Full educational writeup with commands, query anatomy, and bug bounty relevance for every challenge
+- SQL Injection skill upgraded to **Comfortable**
+- Authentication Bypasses started at **Learning** (bypassed logins, dumped creds, account takeover)
 
 **Current state:**
-- 2 rooms rooted, both with full writeups
-- Skill tree: Tier 1 vulns mostly **Not Started**, some Tier 2 at **Learning** from room experience
-- Burp Suite: **Not Started** — this is the biggest gap for web bug bounty
+- 3 rooms rooted, all with full writeups
+- Skill tree: SQL Injection **Comfortable**, Auth Bypasses **Learning**, most other Tier 1 still **Not Started**
+- Burp Suite: **Not Started** — still the biggest gap for web bug bounty
 - CEH: studying (parallel track)
 - Platform accounts: not yet created
-- Phase 1 progress: ~10% (need 20+ web-focused rooms, Burp proficiency)
+- Phase 1 progress: ~20% (SQLi solid, need XSS, IDOR, SSRF, Burp proficiency)
 
 ---
 
@@ -61,10 +63,10 @@ The immediate path is bug bounty. No clients, no boss. Just skill, system, and t
 
 ### Immediate (Next 1-3 Sessions)
 
-1. **Start a web app focused room — OWASP Top 10 or XSS/SQLi lab**
-   - *Why now:* We need to pivot from general CTF rooms to web-specific training. Every room from here should target a Tier 1 vulnerability class.
-   - *Suggestion:* TryHackMe "OWASP Top 10" room or an XSS-focused room. XSS is high-frequency in bug bounty and we have zero practice.
-   - *Ready?* Yes. We have the methodology, tools, and writeup system. Just need to start.
+1. **XSS room next — it's the other half of Tier 1 web vulns**
+   - *Why now:* SQLi is solid. XSS is the other bread-and-butter web vuln — high frequency in bug bounty, zero practice so far. Stored XSS pays especially well.
+   - *Suggestion:* TryHackMe XSS lab or "Cross-Site Scripting" room. Similar progressive format to what we just crushed.
+   - *Ready?* Absolutely. The pattern of working through progressive challenges is dialed in.
 
 2. **Start learning Burp Suite on the next web room**
    - *Why now:* Burp is THE tool for web bug bounty. Every web room from here should go through Burp's proxy. Even if we're clumsy with it at first, the reps compound fast.
@@ -81,7 +83,7 @@ The immediate path is bug bounty. No clients, no boss. Just skill, system, and t
    - *Suggested sequence:*
      - OWASP Top 10 (broad coverage)
      - XSS labs (Tier 1 — stored, reflected, DOM)
-     - SQL injection labs (Tier 1 — manual before sqlmap)
+     - ~~SQL injection labs~~ ✓ DONE (SQL Injection Lab 12/12)
      - Authentication bypass rooms (Tier 1)
      - IDOR / access control rooms (Tier 1)
      - SSRF rooms (Tier 1 — cloud metadata is instant critical)
@@ -137,4 +139,4 @@ The immediate path is bug bounty. No clients, no boss. Just skill, system, and t
 
 ---
 
-*Last updated: 2026-02-24*
+*Last updated: 2026-02-25*
